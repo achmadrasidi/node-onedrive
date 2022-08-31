@@ -1,0 +1,26 @@
+{
+  "name": "onedrive",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^2.1.0",
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "isomorphic-fetch": "^3.0.0",
+    "mime": "^3.0.0",
+    "onedrive-api": "^1.0.4",
+    "simple-oauth2": "^4.3.0"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.24.0",
+    "dotenv": "^16.0.1"
+  }
+}
